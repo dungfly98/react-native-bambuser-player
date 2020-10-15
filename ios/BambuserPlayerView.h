@@ -29,7 +29,7 @@
 @property (nonatomic) BOOL pause;
 @property (nonatomic) BOOL stop;
 @property (nonatomic) float seekTo;
-@property (nonatomic, copy) RCTBubblingEventBlock onReady;
+@property (nonatomic, copy) RCTBubblingEventBlock onReadyPlay;
 @property (nonatomic, copy) RCTBubblingEventBlock onCurrentViewerCountUpdate;
 @property (nonatomic, copy) RCTBubblingEventBlock onTotalViewerCountUpdate;
 @property (nonatomic, copy) RCTBubblingEventBlock onProgressUpdate;
