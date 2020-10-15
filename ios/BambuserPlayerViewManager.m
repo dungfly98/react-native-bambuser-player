@@ -11,7 +11,7 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_VIEW_PROPERTY(onCurrentViewerCountUpdate, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onTotalViewerCountUpdate, RCTBubblingEventBlock)
-RCT_EXPORT_VIEW_PROPERTY(onReady, RCTBubblingEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onReadyPlay, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onProgressUpdate, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onLoading, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onPlaying, RCTBubblingEventBlock)
