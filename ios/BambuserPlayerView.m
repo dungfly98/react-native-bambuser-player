@@ -224,8 +224,8 @@
   [super layoutSubviews];
   if (!viewReady) {
     viewReady = YES;
-    if (self.onReady) {
-      self.onReady(nil);
+    if (self.onReadyPlay) {
+      self.onReadyPlay(nil);
     }
   }
   bambuserPlayer.frame = self.bounds;
