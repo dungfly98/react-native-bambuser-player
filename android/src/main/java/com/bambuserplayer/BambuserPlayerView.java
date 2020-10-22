@@ -71,7 +71,7 @@ public class BambuserPlayerView extends RelativeLayout {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
         WritableMap event = new WritableNativeMap();
-        sendEvent(event, "onReady");
+        sendEvent(event, "onReadyPlay");
     }
 
     @Override
