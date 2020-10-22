@@ -109,7 +109,7 @@ public class BambuserPlayerViewViewManager extends ViewGroupManager<BambuserPlay
         Map<String, Map<String, String>> map = MapBuilder.of(
             "onCurrentViewerCountUpdate", MapBuilder.of("registrationName", "onCurrentViewerCountUpdate"),
             "onTotalViewerCountUpdate", MapBuilder.of("registrationName", "onTotalViewerCountUpdate"),
-            "onReady", MapBuilder.of("registrationName", "onReady"),
+            "onReadyPlay", MapBuilder.of("registrationName", "onReadyPlay"),
             "onProgressUpdate", MapBuilder.of("registrationName", "onProgressUpdate"),
             "onLoading", MapBuilder.of("registrationName", "onLoading"),
             "onPlaying", MapBuilder.of("registrationName", "onPlaying"),
